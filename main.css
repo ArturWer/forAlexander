@@ -1,18 +1,27 @@
 /* Global resets */
-* {box-sizing: border-box; margin: 0; padding: 0;}
-body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
-
-/* Fonts */
-h1 {
-  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
-  font-size: 2.5em;
-  font-weight: bold;
+* {
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0;
+}
+body {
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; 
+  font-size: 10px;
+  color: #424242; 
+  line-height: 2.24;
 }
 
+/* Fonts */
+p {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 1.1rem;
+}
+.bold{
+  font-weight: bold;
+}
 .container {
   margin: 2em auto;
   max-width: 303px;
-  text-align: center;
   margin: 0 auto;
 }
 
@@ -20,8 +29,14 @@ h1 {
   color: white;
   background-color: #424242;
   border-radius: .2rem;
+  text-align: center;
 }
-
+progress{
+  width: 303px;
+  animation:none;
+  background-color: white;
+  background-size: 303px;
+}
 progress::-webkit-progress-value { 
     background: #EF5F3C; 
 }
@@ -29,7 +44,15 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar{
   background: #EF5F3C;
 }
-
+button{
+  border-radius: .2rem;
+}
+.giveNowBtn{
+  color: white;
+  background-color: #1CBC2C;
+  height: 2rem;
+  font-size: 2rem;
+}
 
 /* COLORS: 
   blue: #20A1D4;
