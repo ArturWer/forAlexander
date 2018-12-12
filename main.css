@@ -76,6 +76,7 @@ form div.main{
   position: relative;
   margin-top: -.4rem;
   color: #A9A9A9;
+  box-shadow: 0 .1rem .1rem #E8E8E8; 
 }
 form div.main p{
   margin-top: .4rem;
@@ -83,6 +84,7 @@ form div.main p{
 }
 button{
   border-radius: .3rem;
+  height: 3rem;
 }
 form div.userGift{
   margin-top: .8rem;
@@ -120,7 +122,6 @@ form div.userGift{
 form div.userGift button{
   color: white;
   background-color: #1CBC2C;
-  height: 3rem;
   flex: 1;
   font-weight: bold;
 }
@@ -135,7 +136,7 @@ form div.btns{
   column-gap: 1rem;
 }
 form div.btns button{
-  padding: 1rem; 
+  background-color: #FAFAFA;
 }
 /* COLORS: 
   blue: #20A1D4;
