@@ -41,7 +41,7 @@ p {
   height: .5rem;
   background-color: #424242;
   top: 100%;
-  right: 15%;
+  right: 13%;
   margin-left: -2.5rem;
   content: '';
   transform: rotate(45deg);
@@ -49,21 +49,29 @@ p {
 }
 progress{
   width: 263px;
+  -webkit-appearance: none;
   height: 1rem;
-  background-color: white;
-  border: .1rem solid #777;
-  margin-top: 1rem;
+  background-color: #FAFAFA;
+  border: .1rem solid #E8E8E8;
+  margin-top: .5rem;
 }
 progress::-webkit-progress-value { 
-    background: #EF5F3C; 
+  background: #EF5F3C; 
 }
-
+progress::-webkit-progress-bar{
+  background: #FAFAFA;
+}
 progress::-moz-progress-bar{
   background: #EF5F3C;
 }
+progress::-ms-fill {
+  background-color: #EF5F3C;
+}
 form div.main{
-  border: .1rem solid #777;
+  border: .1rem solid #E8E8E8;
   padding: 1.1rem;
+  position: relative;
+  margin-top: -.4rem;
 }
 button{
   border-radius: .2rem;
