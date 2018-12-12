@@ -13,11 +13,14 @@
         <p class="msg"><span class="bold">$167</span> still needed for this project</p>
         <progress max="100" value="70">70/100</progress>
         <div class="main">
-          <p>Only <span>3</span> days left to fund this project.</p>
+          <p><span class="orange bold">Only 3 days left</span> to fund this project.</p>
           <p>Join the <span>42</span> other donors who have already supported this project. Every dollar helps.</p>
           <div class="userGift">
-            <input type="number" name="gift" value="50">
-            <button class="giveNowBtn">Give Now</button>
+            <div class="inputGroup">
+              <span>$</span>
+              <input type="number" name="gift" value="50" min="0">
+            </div>
+            <button>Give Now</button>
           </div>
           <p class="why">Why give $50?</p>
         </div>
